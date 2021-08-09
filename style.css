@@ -4,10 +4,11 @@
 }
 
 #welcome {
-    background: linear-gradient(#318d99, #993131);
+    
     height: 800px;
     width: 100%;
     z-index: 5;
+    background: linear-gradient(#a83232,#1843a8);
 }
 
 body {
@@ -45,30 +46,45 @@ h2 {
 }
 
 .menu {
-    position: absolute;
-    top: 30px;
-    right: 30px;
     list-style: none;
     cursor: pointer;
     z-index: 10;
+    background: #a83232;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    height: 50px;
+    top: 0;
+        padding-top: 10px;
 }
 
 .item {
     font-size: 25px;
-    float: left;
-    padding-left: 10px;
-    padding-top: 10px;
+    display: inline;
+    padding-left: 35px;
     padding-bottom: 10px;
-    padding-right: 5px;
+    padding-right: 35px;
 }
 .item:hover {
     font-size: 30px;
-    background-color: cornflowerblue;
+    background-color: crimson;
 }
 a {
     text-decoration: none;
-    color: crimson;
+    color: blue;
 }
 html {
     scroll-behavior: smooth;
+}
+#writings a {
+    text-decoration: underline !important
+}
+#contact h3 {
+    display: inline;
+}
+#contact {
+    background-color: darkblue;
+}
+#contact a {
+    color: black;
 }
